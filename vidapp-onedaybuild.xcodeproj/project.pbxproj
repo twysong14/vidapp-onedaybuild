@@ -16,6 +16,7 @@
 		B80DF3C124E9D85700053375 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DF3C024E9D85700053375 /* Constants.swift */; };
 		B80DF3C324ED6F9000053375 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DF3C224ED6F9000053375 /* Video.swift */; };
 		B80DF3C524ED6FCB00053375 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DF3C424ED6FCB00053375 /* Model.swift */; };
+		B80DF3C724ED837700053375 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DF3C624ED837700053375 /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B80DF3C024E9D85700053375 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B80DF3C224ED6F9000053375 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		B80DF3C424ED6FCB00053375 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B80DF3C624ED837700053375 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				B80DF3C024E9D85700053375 /* Constants.swift */,
 				B80DF3C224ED6F9000053375 /* Video.swift */,
 				B80DF3C424ED6FCB00053375 /* Model.swift */,
+				B80DF3C624ED837700053375 /* ConstantsTemplate.swift */,
 			);
 			path = "vidapp-onedaybuild";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80DF3C724ED837700053375 /* ConstantsTemplate.swift in Sources */,
 				B80DF3B124E4529D00053375 /* ViewController.swift in Sources */,
 				B80DF3AD24E4529D00053375 /* AppDelegate.swift in Sources */,
 				B80DF3AF24E4529D00053375 /* SceneDelegate.swift in Sources */,
