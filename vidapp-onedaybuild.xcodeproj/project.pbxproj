@@ -20,6 +20,7 @@
 		B80DF3C924F2091D00053375 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DF3C824F2091D00053375 /* Response.swift */; };
 		B80DF3CB24F2D86D00053375 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DF3CA24F2D86D00053375 /* VideoTableViewCell.swift */; };
 		B89E0B2524F6AB9E00E5B721 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89E0B2424F6AB9E00E5B721 /* CacheManager.swift */; };
+		B89E0B2724F6AF4400E5B721 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89E0B2624F6AF4400E5B721 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B80DF3C824F2091D00053375 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		B80DF3CA24F2D86D00053375 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		B89E0B2424F6AB9E00E5B721 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		B89E0B2624F6AF4400E5B721 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,6 @@
 				B80DF3CE24F2D88A00053375 /* Models */,
 				B80DF3CD24F2D88500053375 /* View */,
 				B80DF3CC24F2D87B00053375 /* View Controllers */,
-				B80DF3B024E4529D00053375 /* ViewController.swift */,
 				B80DF3B524E4529E00053375 /* Assets.xcassets */,
 				B80DF3BA24E4529E00053375 /* Info.plist */,
 			);
@@ -85,6 +86,8 @@
 		B80DF3CC24F2D87B00053375 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B89E0B2624F6AF4400E5B721 /* DetailViewController.swift */,
+				B80DF3B024E4529D00053375 /* ViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89E0B2724F6AF4400E5B721 /* DetailViewController.swift in Sources */,
 				B80DF3C924F2091D00053375 /* Response.swift in Sources */,
 				B80DF3C724ED837700053375 /* ConstantsTemplate.swift in Sources */,
 				B80DF3B124E4529D00053375 /* ViewController.swift in Sources */,
